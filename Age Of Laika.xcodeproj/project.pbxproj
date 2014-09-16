@@ -13,6 +13,7 @@
 		26A25FBD19C8767300900258 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A25FBC19C8767300900258 /* Images.xcassets */; };
 		26A25FC019C8767300900258 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A25FBE19C8767300900258 /* LaunchScreen.xib */; };
 		26A25FCC19C8767300900258 /* Age_Of_LaikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A25FCB19C8767300900258 /* Age_Of_LaikaTests.swift */; };
+		26A25FD619C8770000900258 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26A25FD519C8770000900258 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		26A25FC519C8767300900258 /* Age Of LaikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Age Of LaikaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A25FCA19C8767300900258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26A25FCB19C8767300900258 /* Age_Of_LaikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Age_Of_LaikaTests.swift; sourceTree = "<group>"; };
+		26A25FD519C8770000900258 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		26A25FB219C8767300900258 /* Age Of Laika */ = {
 			isa = PBXGroup;
 			children = (
+				26A25FD519C8770000900258 /* AgeOfLaika.jpg */,
 				26A25FB519C8767300900258 /* AppDelegate.swift */,
 				26A25FB719C8767300900258 /* ViewController.swift */,
 				26A25FB919C8767300900258 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A25FBB19C8767300900258 /* Main.storyboard in Resources */,
+				26A25FD619C8770000900258 /* AgeOfLaika.jpg in Resources */,
 				26A25FC019C8767300900258 /* LaunchScreen.xib in Resources */,
 				26A25FBD19C8767300900258 /* Images.xcassets in Resources */,
 			);
