@@ -30,6 +30,11 @@ class ViewController: UIViewController {
 		
 		dogYearsLabel.hidden = false
 		dogYearsLabel.text = "\(humanYears) human years is \(dogYears) dog years"
+		
+		// Clear out previous input
+		humanYearsField.text = ""
+		humanYearsField.resignFirstResponder()
+		
 	}
 
 }
