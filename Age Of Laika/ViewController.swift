@@ -26,7 +26,15 @@ class ViewController: UIViewController {
 	@IBAction func convertToDogYears(sender: AnyObject) {
 		
 		let humanYears = humanYearsField.text.toInt()!
-		let dogYears = humanYears * 7
+		var dogYears: Double
+		
+		if humanYears <= 2 {
+			// dog years = 10.5/year for first 2 years
+			dogYears = Double(humanYears) * 10.5
+		} else {
+			// 10.5 for first 2 years + 4 years for every year afterwards
+			dogYears = Double(21 + ( (humanYears - 2) * 4) )
+		}
 		
 		dogYearsLabel.hidden = false
 		dogYearsLabel.text = "\(humanYears) human years is \(dogYears) dog years"
